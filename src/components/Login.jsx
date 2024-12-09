@@ -3,8 +3,8 @@ import axios from 'axios'
 import '../styles/form.css'
 
 const Login = (props) => {
-    const [cin,setcin] = useState("J575010")
-    const [password,setpassword] = useState('024680')
+    const [cin,setcin] = useState("")
+    const [password,setpassword] = useState('')
     
     const handleBtn = (e) => {
         e.preventDefault()
